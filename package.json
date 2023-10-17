@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "index": "node index.js",
+    "start": "node index.js",
+    "index": "node index.js index",
     "create": "node index.js create",
     "show": "node index.js show",
     "update": "node index.js update",
