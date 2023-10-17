@@ -1,17 +1,16 @@
 {
-  "name": "inventory-app",
+  "name": "Apple-Store-Inventory-Project",
   "version": "1.0.0",
-  "description": "Inventory app for Apple Store",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "list-items": "node index.js list-items",
-    "create-item": "node index.js create-item",
-    "update-item": "node index.js update-item",
-    "delete-item": "node index.js delete-item",
-    "list-cart": "node index.js list-cart",
+    "index": "node index.js",
+    "create": "node index.js create",
+    "show": "node index.js show",
+    "update": "node index.js update",
+    "destroy": "node index.js destroy",
     "add-to-cart": "node index.js add-to-cart",
-    "remove-from-cart": "node index.js remove-from-cart",
-    "clear-cart": "node index.js clear-cart"
+    "remove-from-cart": "node index.js remove-from-cart"
   },
   "dependencies": {
     "chalk": "^4.1.2"
